@@ -12,6 +12,9 @@ $ cd discord-bot-starter
 # Create a .env file and add your discord bot token like follow
 TOKEN=your_token_here
 
+# In bot-config.ts, change the prefix that would be used to ping your bot in discord chat
+export const prefix = "your_choice_of_prefix";
+
 # Install dependencies
 $ npm install
 
